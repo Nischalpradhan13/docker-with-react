@@ -1,0 +1,25 @@
+services:
+  # Development service
+  react-app-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+      - ./package.json:/app/package.json
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+
+  # Production service
+  react-app-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "8080:80"
+    environment:
+      - NODE_ENV=production
