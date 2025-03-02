@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload. Amazing app Docker
           with React app
+            Good to go with code
         </p>
         <a
           className="App-link"
