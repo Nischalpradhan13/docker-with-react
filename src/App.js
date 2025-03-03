@@ -11,6 +11,11 @@ function App() {
           with React app
             Good to go with code
         </p>
+        <p>
+          Want to edit this <code>src/App.js</code> and go to this and edit. Dami Dami Dami
+          with React app
+            Good to go with code
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
