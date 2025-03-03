@@ -16,6 +16,7 @@ services:
 
   # Production service
   react-app-prod:
+    container_name: reactcont
     build:
       context: .
       dockerfile: Dockerfile.prod
