@@ -9,17 +9,17 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload. Amazing app Docker
           with React app
-            Good to go with code
+          Good to go with code
         </p>
         <p>
           Want to edit this <code>src/App.js</code> and go to this and edit. Dami Dami Dami
           with React app
-            Good to go with code
+          Good to go with code
         </p>
         <p>
           Want to edit this <code>src/App.js</code> and go to this and edit. Dami Dami Dami
           with React app
-            Good to go with code
+          Good to go with code
         </p>
         <a
           className="App-link"
@@ -30,7 +30,7 @@ function App() {
           Learn React
         </a>
       </header>
-    
+    </div> {/* Closing the div here */}
   );
 }
 
